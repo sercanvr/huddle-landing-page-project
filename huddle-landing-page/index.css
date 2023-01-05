@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 400;
+  background-color: hsl(0, 0%, 95%);
+  min-height: 100vh;
+  background: url('bg-desktop.svg');
+  background-size: contain;
+  padding: 50px;
+  font-size: 1.2rem;
+  background-repeat: no-repeat, no-repeat;
+  background-color: hsl(300, 69%, 71%);
+  background-color: hsl(257, 40%, 49%);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+p {
+  color: #fff;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+a {
+  border-radius: 10px;
+  width: 300px;
+  height: 150px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  color: hsl(257, 40%, 49%);
+}
+
+button {
+  height: 55px;
+  padding: 0 55px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 20px;
+  box-shadow: 0px 1px 20px -6px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.huddle {
+  width: 50%;
+}
+
+button:hover {
+  transition: all 0.9s;
+  opacity: 0.7;
+}
+
+.photo {
+  display: flex;
+  gap: 60px;
+  padding-right: 50px;
+}
+
+img {
+  cursor: pointer;
+}
+
+.content {
+  width: 50%;
+}
+
+.content h1 {
+  width: 100%;
+  font-size: 3rem;
+}
+
+.icon {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+  cursor: pointer;
+}
+
+.icon i:hover {
+  transition: all 0.7s;
+  opacity: 0.7;
+}
+
+.icon i {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.icon-item {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.icon-item:hover {
+  transition: all 0.7s;
+  opacity: 0.7;
+}
+
+.icon-item i:hover {
+  transition: all 0.7s;
+  opacity: 0.7;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+#facebook:hover {
+  color: #3b5998;
+}
+
+#twitter:hover {
+  color: #1da1f2;
+}
+
+#insta:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
